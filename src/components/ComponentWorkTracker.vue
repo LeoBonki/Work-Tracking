@@ -310,7 +310,7 @@ export default {
     // Mounted function
     mounted() {
         this.GetItem();
-        this.GetTask();
+        if(this.ElementIndex === 2) this.GetTask();
     },
 };
 </script>
