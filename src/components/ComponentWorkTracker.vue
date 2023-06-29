@@ -157,7 +157,6 @@ export default {
             formFilterSelected: 0,
             formFilterDate: '',
             elementItemSelected: 0,
-            taskIndex: 0,
         }
     },
     props: {
