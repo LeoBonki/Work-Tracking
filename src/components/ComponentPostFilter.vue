@@ -46,6 +46,7 @@ export default {
         ComponentModal,
         ComponentCalendar
     },
+    emits: ['user-inputs'],
     methods: {
         ChangeFilterSelected(index) {
             this.formFilterSelected = index;
